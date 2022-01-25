@@ -7,7 +7,7 @@ print("Введите имя:")
 name = input()
 if name == "Вячеслав":
     print("Привет, " + name)
-else: print("Нет такого имени")
+else: print("Нет такого имени.")
 
 print("Введите числа через пробел:")
 l = [int(i) for i in input().split()]
